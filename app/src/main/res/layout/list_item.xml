@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imagePet"
+        android:layout_width="155dp"
+        android:layout_height="195dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/KindLbl"
+        android:layout_width="61dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/basic"
+        android:text="Kind:"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imagePet"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/KindTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/basic"
+        android:text="TextView"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/KindLbl"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/NameLbl"
+        android:layout_width="61dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/basic"
+        android:text="Name:"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imagePet"
+        app:layout_constraintTop_toBottomOf="@+id/KindLbl" />
+
+    <TextView
+        android:id="@+id/NameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/basic"
+        android:text="TextView"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/NameLbl"
+        app:layout_constraintTop_toBottomOf="@+id/KindTxt" />
+
+    <TextView
+        android:id="@+id/BreedLbl"
+        android:layout_width="61dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/basic"
+        android:text="Breed:"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imagePet"
+        app:layout_constraintTop_toBottomOf="@+id/NameLbl" />
+
+    <TextView
+        android:id="@+id/BreedTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/basic"
+        android:text="TextView"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/BreedLbl"
+        app:layout_constraintTop_toBottomOf="@+id/NameTxt" />
+
+    <TextView
+        android:id="@+id/ColorLbl"
+        android:layout_width="61dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/basic"
+        android:text="Color:"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imagePet"
+        app:layout_constraintTop_toBottomOf="@+id/BreedLbl" />
+
+    <TextView
+        android:id="@+id/ColorTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/basic"
+        android:text="TextView"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/ColorLbl"
+        app:layout_constraintTop_toBottomOf="@+id/BreedTxt" />
+
+    <TextView
+        android:id="@+id/StatusLbl"
+        android:layout_width="61dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/basic"
+        android:text="Status:"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imagePet"
+        app:layout_constraintTop_toBottomOf="@+id/ColorLbl" />
+
+    <TextView
+        android:id="@+id/StatusTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/basic"
+        android:text="TextView"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/StatusLbl"
+        app:layout_constraintTop_toBottomOf="@+id/ColorTxt" />
+
+    <TextView
+        android:id="@+id/RegionLbl"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/basic"
+        android:text="Location:"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imagePet"
+        app:layout_constraintTop_toBottomOf="@+id/StatusLbl"
+        tools:text="Location:" />
+
+    <TextView
+        android:id="@+id/RegionTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/basic"
+        android:text="TextView"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/RegionLbl"
+        app:layout_constraintTop_toBottomOf="@+id/StatusTxt" />
+
+    <Button
+        android:id="@+id/Details"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="6dp"
+        android:background="@android:color/holo_green_dark"
+        android:fontFamily="@font/basic"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="See Details"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imagePet"
+        app:layout_constraintTop_toBottomOf="@+id/RegionTxt" />
+
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="66dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="6dp"
+        android:background="@android:color/holo_red_dark"
+        android:fontFamily="@font/basic"
+        android:text="Delete"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toEndOf="@+id/Details"
+        app:layout_constraintTop_toBottomOf="@+id/RegionTxt" />
+
+
+</android.support.constraint.ConstraintLayout>
